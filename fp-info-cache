@@ -1,4 +1,4 @@
-24189310299632003
+24191042014302859
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86442,6 +86442,13 @@ Potentiometer vertical vishay
 0
 3
 3
+Project_Library
+JLCPCB_Tooling_Hole
+
+
+0
+0
+0
 Project_Library
 SOIC127P600X175-8N
 D0008A

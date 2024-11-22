@@ -407,88 +407,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -948,16 +866,28 @@
 		)
 	)
 	(junction
+		(at 153.67 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01781a3b-a068-440d-8229-8318cb82b427")
+	)
+	(junction
+		(at 170.18 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01c1470e-e4ff-4981-a8a9-d6ad380127fd")
+	)
+	(junction
 		(at 129.54 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10ac1951-2229-464f-96e4-cb3750e96c3e")
 	)
 	(junction
-		(at 191.77 88.9)
+		(at 158.75 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a31ad09-9493-444f-b2f1-8c5731caa8a4")
+		(uuid "28362e92-6feb-4d19-8cc9-06855033b3a9")
 	)
 	(junction
 		(at 111.76 123.19)
@@ -966,10 +896,16 @@
 		(uuid "3b3543f5-439f-47b4-8974-8bbe9121a144")
 	)
 	(junction
-		(at 182.88 76.2)
+		(at 170.18 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a39481b-6293-4a28-ae1d-cee38a8a7938")
+		(uuid "481bc1eb-66fb-4a22-9c45-e612fbfc2586")
+	)
+	(junction
+		(at 158.75 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5409fe26-c699-43ec-8d1a-59cae102e526")
 	)
 	(junction
 		(at 129.54 123.19)
@@ -1008,6 +944,18 @@
 		(uuid "a594ae93-7bfb-42ad-a179-71aa5bc2c2aa")
 	)
 	(junction
+		(at 182.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3e33d6-eab7-480e-a778-b77c2564a8e0")
+	)
+	(junction
+		(at 153.67 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac418865-afdf-4d78-92f0-47749dae64dc")
+	)
+	(junction
 		(at 116.84 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1037,6 +985,12 @@
 		(color 0 0 0 0)
 		(uuid "f7408112-9e3d-4625-bee7-14f02e2c0612")
 	)
+	(junction
+		(at 191.77 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd02f905-62f3-423c-90f1-176944cc3509")
+	)
 	(wire
 		(pts
 			(xy 226.06 86.36) (xy 226.06 90.17)
@@ -1049,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 88.9) (xy 191.77 88.9)
+			(xy 166.37 88.9) (xy 170.18 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1086,6 +1040,16 @@
 			(type default)
 		)
 		(uuid "1151d9c9-287b-4b39-8bad-4cc81701239a")
+	)
+	(wire
+		(pts
+			(xy 170.18 82.55) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115a6cd8-55a6-4d93-96cd-0b5f2e0e8a33")
 	)
 	(wire
 		(pts
@@ -1149,16 +1113,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 88.9) (xy 191.77 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dbeeff5-0054-4dab-81f3-a2a1494909d9")
-	)
-	(wire
-		(pts
 			(xy 129.54 120.65) (xy 129.54 123.19)
 		)
 		(stroke
@@ -1166,6 +1120,36 @@
 			(type default)
 		)
 		(uuid "2f9c6f71-16d1-403b-9f24-95fef0f718ce")
+	)
+	(wire
+		(pts
+			(xy 166.37 69.85) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350c550f-5ef8-4e58-86e8-b46e0865d1e8")
+	)
+	(wire
+		(pts
+			(xy 158.75 82.55) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b45b18-fa19-4477-9fbb-38c3dd6625eb")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38151a24-d8e4-46a9-8018-f30865bfdaf8")
 	)
 	(wire
 		(pts
@@ -1239,6 +1223,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 82.55) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510a7d6c-238a-4a50-b94c-3cace6e1416f")
+	)
+	(wire
+		(pts
 			(xy 125.73 88.9) (xy 158.75 88.9)
 		)
 		(stroke
@@ -1266,6 +1260,16 @@
 			(type default)
 		)
 		(uuid "60321055-7375-4d4f-b13b-c6e9f97a4798")
+	)
+	(wire
+		(pts
+			(xy 170.18 88.9) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635712f6-0d4f-4bb1-9cdc-0432ad7e0625")
 	)
 	(wire
 		(pts
@@ -1319,7 +1323,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 76.2) (xy 182.88 76.2)
+			(xy 166.37 76.2) (xy 170.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1329,13 +1333,33 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 110.49) (xy 153.67 118.11)
+			(xy 170.18 69.85) (xy 170.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780857a6-cc0b-420b-b0d9-2f9585f8b61d")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 153.67 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a88211e-1938-4319-afe9-45d75a7f62a2")
+	)
+	(wire
+		(pts
+			(xy 170.18 76.2) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1bf078-3ca0-44f5-9b60-351ce6c27df2")
 	)
 	(wire
 		(pts
@@ -1389,16 +1413,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 182.88 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89bda66d-facd-4ae1-baaa-15b1d13c8afd")
-	)
-	(wire
-		(pts
 			(xy 166.37 110.49) (xy 171.45 110.49)
 		)
 		(stroke
@@ -1409,6 +1423,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 125.73) (xy 158.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dc5557-de28-4ae7-902b-5515ba6eb171")
+	)
+	(wire
+		(pts
 			(xy 78.74 69.85) (xy 81.28 69.85)
 		)
 		(stroke
@@ -1416,6 +1440,16 @@
 			(type default)
 		)
 		(uuid "9377de50-1675-45b0-93e4-9536230986a7")
+	)
+	(wire
+		(pts
+			(xy 153.67 114.3) (xy 153.67 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9700870c-5f7f-4855-939f-3a04a82982a8")
 	)
 	(wire
 		(pts
@@ -1476,6 +1510,16 @@
 			(type default)
 		)
 		(uuid "b19f66ee-0d65-423f-973d-7d82a0b7bc1e")
+	)
+	(wire
+		(pts
+			(xy 191.77 88.9) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b301db51-29e1-4439-bdfa-c75738f1f806")
 	)
 	(wire
 		(pts
@@ -1549,6 +1593,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 114.3) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14e44c9-8365-4732-afc0-d8dfc2dc8698")
+	)
+	(wire
+		(pts
 			(xy 111.76 74.93) (xy 116.84 74.93)
 		)
 		(stroke
@@ -1566,6 +1620,16 @@
 			(type default)
 		)
 		(uuid "d41626cc-a254-44c1-8298-6b1a96da5085")
+	)
+	(wire
+		(pts
+			(xy 158.75 118.11) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47c8d4d-e57c-49ac-bb7e-32cc5b66c215")
 	)
 	(wire
 		(pts
@@ -1606,6 +1670,16 @@
 			(type default)
 		)
 		(uuid "ddca403a-d193-4835-887b-a50da0c7deb8")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76feca1-bc99-4a28-ab76-e0b4d6c4fe70")
 	)
 	(wire
 		(pts
@@ -1656,6 +1730,140 @@
 			(type default)
 		)
 		(uuid "ffb1769e-964d-4fe6-b646-30f8bb2495bf")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e0565ff-8603-4b86-b06c-7d300122a3b1")
+		(property "Reference" "C2"
+			(at 149.86 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 152.4 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 152.7048 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "635995d7-c835-420e-9478-1ab323323bf6")
+		)
+		(pin "2"
+			(uuid "dcf28fb6-fc62-4659-9772-6dd3f1b2da6e")
+		)
+		(instances
+			(project "AliceMini"
+				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4b8585-a0de-4898-bd61-8376a89752d7")
+		(property "Reference" "C7"
+			(at 166.37 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 166.37 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 166.37 87.9348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc29a582-8787-480e-93b9-4e1aab59bac0")
+		)
+		(pin "2"
+			(uuid "cb760003-3900-449c-b19f-c15a9cc16a0a")
+		)
+		(instances
+			(project "AliceMini"
+				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -1752,7 +1960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 116.84 90)
 			(effects
 				(font
@@ -1993,74 +2201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 162.56 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a5dd333-a0c5-488c-90ab-4790738a7d57")
-		(property "Reference" "C3"
-			(at 162.56 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uF"
-			(at 162.56 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 166.37 75.2348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FS55X226K101LRG"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c365f5a9-9a83-4b4a-8fc2-06185d61cbd5")
-		)
-		(pin "1"
-			(uuid "d7f51418-c946-48de-b0df-3e326c56d7de")
-		)
-		(instances
-			(project "AliceMini"
-				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 226.06 90.17 0)
 		(unit 1)
@@ -2127,76 +2267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 153.67 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c73cfb5-5427-4da7-bb0c-dbd2079b0672")
-		(property "Reference" "C2"
-			(at 157.48 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 157.48 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 154.6352 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FS55X226K101LRG"
-			(at 153.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1e7b4326-7711-4601-9bc6-3d13d1d8611c")
-		)
-		(pin "1"
-			(uuid "2560dd9d-dde4-4575-927a-a67a6400bf4c")
-		)
-		(instances
-			(project "AliceMini"
-				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 71.12 92.71 0)
 		(unit 1)
@@ -2215,7 +2285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "800M"
+		(property "Value" "1000M"
 			(at 73.66 93.9799 0)
 			(effects
 				(font
@@ -2224,7 +2294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 69.342 92.71 90)
 			(effects
 				(font
@@ -2294,7 +2364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.618 63.5 90)
 			(effects
 				(font
@@ -2420,7 +2490,7 @@
 				)
 			)
 		)
-		(property "Value" "400"
+		(property "Value" "470"
 			(at 162.56 106.68 90)
 			(effects
 				(font
@@ -2428,7 +2498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.56 112.268 90)
 			(effects
 				(font
@@ -2465,140 +2535,6 @@
 			(project "AliceMini"
 				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 53.34 45.72 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52d3692c-1b4f-4a34-83e8-7faf39425c76")
-		(property "Reference" "H1"
-			(at 55.88 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 55.88 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 201.93 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "585a2b07-fe4e-48d0-bf27-cb6aa6440230")
-		(property "Reference" "C5"
-			(at 205.74 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 205.74 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 202.8952 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FS55X226K101LRG"
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "094e514b-212b-4e60-ab3a-303ee600d12f")
-		)
-		(pin "2"
-			(uuid "627124a8-286c-4f49-93bf-70e47d8d18d4")
-		)
-		(instances
-			(project ""
-				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2744,31 +2680,31 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 88.9 90)
+		(at 201.93 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "783f8ffb-2e0e-48b5-9044-f6d15365ed5d")
-		(property "Reference" "C4"
-			(at 162.56 81.28 90)
+		(uuid "77369da2-b85a-42e5-9c4e-b2c573b5126c")
+		(property "Reference" "C8"
+			(at 198.12 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22uF"
-			(at 162.56 83.82 90)
+		(property "Value" "10uF"
+			(at 200.66 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 166.37 87.9348 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 200.9648 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 88.9 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,25 +2721,92 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FS55X226K101LRG"
-			(at 162.56 88.9 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "f2f44440-afc1-4a41-b34f-393e498b4431")
 		)
 		(pin "1"
-			(uuid "03321e4b-954c-4cef-9c9d-856322255185")
+			(uuid "33b0fc2e-826b-4e9e-a191-61250f6b439e")
+		)
+		(pin "2"
+			(uuid "509b33ce-0720-43af-9ef3-ffa1a2ee494e")
 		)
 		(instances
 			(project "AliceMini"
 				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
-					(reference "C4")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8119bd9a-3d27-4fa6-9e53-14d6292d9ec4")
+		(property "Reference" "C3"
+			(at 154.94 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 157.48 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 157.7848 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d85b524-405a-422b-8bb0-ea56b14b7e75")
+		)
+		(pin "2"
+			(uuid "4801122e-e014-4b3f-aca6-384b93fa55a0")
+		)
+		(instances
+			(project "AliceMini"
+				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.062 82.55 90)
 			(effects
 				(font
@@ -3078,6 +3081,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 162.56 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2517a8c-7ad8-4088-bc68-3c51ce526424")
+		(property "Reference" "C4"
+			(at 166.37 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 166.37 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 166.37 68.8848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72fb1765-bb1e-440b-b174-9bfd2abbcb1b")
+		)
+		(pin "2"
+			(uuid "5fcfc6ee-ad38-4022-b2b7-a856b75427e3")
+		)
+		(instances
+			(project ""
+				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 191.77 102.87 0)
 		(unit 1)
@@ -3105,7 +3175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.992 102.87 90)
 			(effects
 				(font
@@ -3148,35 +3218,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 53.34 50.8 0)
+		(lib_id "Device:C")
+		(at 162.56 82.55 90)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab19b3b5-92e0-4663-8e25-ce16f344e9ee")
-		(property "Reference" "H2"
-			(at 55.88 49.5299 0)
+		(uuid "ab132354-f8f5-427b-87e8-3bfa9ea87a33")
+		(property "Reference" "C6"
+			(at 166.37 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 55.88 52.0699 0)
+		(property "Value" "10uF"
+			(at 166.37 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 53.34 50.8 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 166.37 81.5848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 50.8 0)
+			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,19 +3260,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 53.34 50.8 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "5b450cc2-db42-4506-b094-cfaddd0c74b3")
+		)
+		(pin "2"
+			(uuid "b3b8ea44-9e87-463e-adbc-16da6407d9ef")
 		)
 		(instances
 			(project "AliceMini"
 				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
-					(reference "H2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3305,7 +3378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 129.54 90)
 			(effects
 				(font
@@ -3510,7 +3583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.102 102.87 90)
 			(effects
 				(font
@@ -3577,7 +3650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.93 90.678 90)
 			(effects
 				(font
@@ -3620,35 +3693,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 53.34 55.88 0)
+		(lib_id "Device:C")
+		(at 139.7 129.54 180)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd7a088a-1b30-4dca-b1d5-dfec87c4e67a")
-		(property "Reference" "H3"
-			(at 55.88 54.6099 0)
+		(uuid "c84f4ce6-8a59-4caf-ab2d-e17b96b2793a")
+		(property "Reference" "C1"
+			(at 135.89 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 55.88 57.1499 0)
+		(property "Value" "10uF"
+			(at 138.43 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 53.34 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 138.7348 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 55.88 0)
+			(at 139.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,19 +3735,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 53.34 55.88 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "8bcab4c6-7ead-4093-8efb-659b9e9e90b1")
+		)
+		(pin "2"
+			(uuid "964b7f7d-27d3-4926-8b14-9c6bf7950b56")
 		)
 		(instances
 			(project "AliceMini"
 				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
-					(reference "H3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.93 77.978 90)
 			(effects
 				(font
@@ -3753,34 +3829,31 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 129.54 0)
+		(at 162.56 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0e8bc9b-c8ba-4da2-aec0-a8e2a1345722")
-		(property "Reference" "C1"
-			(at 143.51 128.2699 0)
+		(uuid "d73a6e44-991e-4d6e-a7eb-1e8597ec810e")
+		(property "Reference" "C5"
+			(at 166.37 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 143.51 130.8099 0)
+		(property "Value" "10uF"
+			(at 166.37 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 140.6652 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 166.37 75.2348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 129.54 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,25 +3870,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FS55X226K101LRG"
-			(at 139.7 129.54 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "2e556e8c-bce6-458a-a7e2-dfbbe783f492")
 		)
 		(pin "1"
-			(uuid "9ed8b21b-b031-4d84-bfc4-030ae9c3639a")
+			(uuid "6cc16418-6585-406d-b6fe-33071cad956d")
+		)
+		(pin "2"
+			(uuid "3b0b186d-d520-4e6a-9c62-bd85c1922333")
 		)
 		(instances
 			(project "AliceMini"
 				(path "/510e2801-2e2e-4d2c-b916-a4ab3be687f3"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
